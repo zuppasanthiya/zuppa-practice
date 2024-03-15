@@ -1,0 +1,114 @@
+.career-container {
+    background-color: rgb(255, 255, 255);
+    }
+    .image-tag {
+      height: 100px;
+      width: 450px;
+    }
+    .career-header h2 {
+      display: flex;
+      flex-direction: column;
+      color: #000000;
+      text-align: center;
+      margin: 30px auto;
+      width: 50vh;
+      border-radius: 55px;
+     
+    }
+    
+    .career-para {
+      padding: 10px;
+      border: 2px solid rgb(65, 34, 34);
+      height: 410px;
+      width: 595px;
+      padding: 15px;
+      margin-left: 35%;
+      color: rgb(0, 0, 0);
+      background-color: white;
+      font-weight: 600;
+    }
+    .unorder {
+      list-style-type: square;
+    }
+    
+    .career-header-one {
+      padding: 30px;
+    }
+    .career-para-one {
+      padding: 10px;
+      border: 2px solid black;
+      height: 700px;
+      width: 600px;
+      padding: 15px;
+      margin-left: 34%;
+      color: rgb(0, 0, 0);
+     background-color: #ffffff;
+     font-weight: 600;
+    }
+    .unorder {
+      list-style-type: square;
+    }
+    /* .image-tag-one {
+      margin-right: 120%;
+      height: 100px;
+      width: 300px;
+    } */
+    
+    .career-header-two {
+      padding: 30px;
+    }
+    .career-para-two {
+      padding: 10px;
+      border: 2px solid black;
+      height: 625px;
+      width: 600px;
+      padding: 15px;
+      margin-left: 34%;
+      color: rgb(0, 0, 0);
+      font-weight: 600;
+    background-color: #ffffff;
+    }
+    .unorder {
+      list-style-type: square;
+    }
+    .button-tag {
+      background-color: rgb(6, 43, 44);
+      height: 35px;
+      width: 100px;
+      margin-left: 80%;
+      font-weight: 500;
+      color: rgb(252, 252, 252);
+      border: 4px double rgb(126, 95, 209);
+    }
+ 
+    .employee-title {
+      text-align: center;
+      height: 98px;
+      width: 200px;
+      margin-left: 100vh;
+      color: rgba(14, 0, 0, 0.781);
+    }
+    .employee-title button {
+      text-align: center;
+      background-color: #ffffff;
+      height: 40px;
+      width: 80px;
+      border-radius: 5px;
+      color: black;
+      font-weight: 600;
+      animation: mymovebutton 5s infinite;
+    }
+    
+    .employee-title button:hover {
+      color: rgb(255, 255, 255);
+      background-color: rgb(15, 0, 0);
+      animation: mymove 5s infinite;
+    }
+    @keyframes mymove {
+      50% {
+        box-shadow: 10px 20px 30px blue;
+      }
+    }
+    .workicon{
+    margin-left: 100vh;
+    }
